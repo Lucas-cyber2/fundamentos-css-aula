@@ -1,0 +1,91 @@
+/* .link{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+} */
+
+/* .lista{
+    display: inline;
+} */
+
+/* .container{
+    margin: 10px;
+   
+}
+
+.teste{
+    display: inline-block;
+} */
+
+/* body {
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    color: rgba(50, 50, 255, 0.6);
+}
+
+p {
+    color: rgba(100, 50, 255, 0.6) ;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+   
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.destaque{
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+
+} */
+
+/* <!--------     EXÉRCICIO DE BOX MODEL                  ---------> */
+
+/* .caixa {
+    width: 200px;
+    height: 100px;
+    background-color: rgba(0, 150, 255, 0.2);
+    padding: 20px;
+    border: 3px solid #0000ff;
+    margin: 30px;
+    box-sizing: border-box;
+
+} */
+
+/* .container {
+    display: flex;
+    justify-content: center;
+} */
+
+/* -----EXÉRCICIO FLEX GRID -----*/
+
+/* .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+} */
+.image {
+    width: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
+    text-align: center;
+
+}
+
+.container p {
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,10 @@
+.container div {
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+  background-color: blueviolet;
+}
+.container {
+display: grid;
+grid-template-columns: repeat( 3, minmax(100px, 1fr));
+}
